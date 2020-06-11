@@ -73,6 +73,7 @@ exports.createPages = function createPages({ graphql, actions, reporter }) {
         {
           allChallengeNode(
             sort: { fields: [superOrder, order, challengeOrder] }
+            filter: { isHidden: { eq: false } }
           ) {
             edges {
               node {

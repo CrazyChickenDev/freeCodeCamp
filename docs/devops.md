@@ -114,7 +114,7 @@ Currently, only members on the developer team can push to the production branche
 
 The above steps will automatically trigger a run on the build pipeline for the `production-staging` branch. Once the build is complete, the artifacts are saved as `.zip` files in a cold storage to be retrieved and used later.
 
-The release pipeline is triggered automatically when a fresh artefact is available from the connected build pipeline. For staging platforms, this process does not involve manual approval and the artifacts are pushed to the Client CDN and API servers.
+The release pipeline is triggered automatically when a fresh artifact is available from the connected build pipeline. For staging platforms, this process does not involve manual approval and the artifacts are pushed to the Client CDN and API servers.
 
 > [!TIP|label:Estimates]
 > Typically the build run takes ~20-25 minutes to complete followed by the release run which takes ~15-20 mins for the client, and ~5-10 mins for the API to be available live. From code push to being live on the staging platforms the whole process takes **~35-45 mins** in total.
@@ -196,8 +196,9 @@ We thank you for reporting bugs that you encounter and help in making freeCodeCa
 
 Currently a public beta testing version is available at:
 
-<h1 align="center"><a href='https://www.freecodecamp.dev' _target='blank'><code>www.freecodecamp.dev</code></a></h1>
+<h1 align="center"><a href='https://www.freecodecamp.dev' _target='blank'>freecodecamp.dev</a></h1>
 
+> [!NOTE]
 > The domain name is different than **`freeCodeCamp.org`**. This is intentional to prevent search engine indexing and avoid confusion for regular users of the platform.
 
 ### Identifying the current version of the platforms
@@ -224,14 +225,12 @@ There are some known limitations and tradeoffs when using the beta version of th
 
   The beta site is and always has been to augment local development and testing, nothing else. It's not a promise of what’s coming, but a glimpse of what is being worked upon.
 
-- #### Sign in and authentication only available via email, not social.
+- #### Sign page may look different than production
 
-  Google, GitHub and Facebook logins will NOT be available in this beta mode. This is simply a technical limitation, because we are using a separate `test domain` for this version. **Email logins will work just as fine.**
-
-  The sign page may look different than production.
+   We use a test tenant for freecodecamp.dev on Auth0, and hence donot have the ability to set a custom domain. This makes is so that all the redirect callbacks and the login page appear at a default domain like: `https://freecodecamp-dev.auth0.com/`. This does not affect the functionality is as close to production as we can get.
 
 ## Reporting issues and leaving feedback
 
 Please open fresh issues for discussions and reporting bugs. You can label them as **[`release: next/beta`](https://github.com/freeCodeCamp/freeCodeCamp/labels/release%3A%20next%2Fbeta)** for triage.
 
-You may send an email to `dev@freecodecamp.org` if you have any queries. As always all security vulnerabilities should be reported to `security@freecodecamp.org` instead of the public tracker and forum.
+You may send an email to `dev[at]freecodecamp.org` if you have any queries. As always all security vulnerabilities should be reported to `security[at]freecodecamp.org` instead of the public tracker and forum.

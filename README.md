@@ -23,7 +23,7 @@ Our full-stack web development curriculum is completely free and self-paced. We 
 
 ### Certifications
 
-freeCodeCamp.org offers several free developer certifications. Each of these certifications involves building 5 required web app projects, along with hundreds of optional coding challenges to help you prepare for those projects. We estimate that each certification will take a beginning programmer around 300 hours to earn.
+freeCodeCamp.org offers several free developer certifications. Each of these certifications involves building 5 required web app projects, along with hundreds of optional coding challenges to help you prepare for those projects. We estimate that each certification will take a beginner programmer around 300 hours to earn.
 
 Each of these 30 projects in the freeCodeCamp.org curriculum has its own agile user stories and automated tests. These help you build up your project incrementally and ensure you've fulfilled all the user stories before you submit it.
 
@@ -107,11 +107,12 @@ Once you have earned all 6 of these certifications, you'll be able to claim your
 
 #### Legacy Certifications
 
-We also have 3 legacy certifications from our 2015 curriculum, which are still available. All of the required projects for these legacy certifications will remain available on freeCodeCamp.org.
+We also have 4 legacy certifications dating back to our 2015 curriculum, which are still available. All of the required projects for these legacy certifications will remain available on freeCodeCamp.org.
 
 - Legacy Front End Development Certification
 - Legacy Data Visualization Certification
 - Legacy Back End Development Certification
+- Legacy Information Security and Quality Assurance Certification
 
 ### The Learning Platform
 
